@@ -45,14 +45,15 @@ GEM
 
 PLATFORMS
   universal-darwin-20
+  x86_64-linux-gnu
 
 DEPENDENCIES
-  activerecord (~> 6.1)
+  activerecord
   pry
   rake
   require_all
   sinatra-activerecord
-  sqlite3 (~> 1.4)
+  sqlite3
 
 BUNDLED WITH
    2.2.23
