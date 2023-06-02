@@ -2,8 +2,8 @@ class Dev < ActiveRecord::Base
     has_many :freebies 
     has_many :companies, through: :freebies
 
-    def received_one?(item_name)
-        self.freebies.include(item_name)
+    def received_one?(item)
+        self.freebies.include?(item)
     end
 
     def give_away(dev:, freebie:)
