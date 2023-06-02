@@ -4,6 +4,11 @@
 
 A model for freebie tracker that uses Active Record.
 
+## Technologies used
+
+* sqlite3
+* Active record
+
 ## How to run the project
 
 1. Fork and clone this project to your local machine.
